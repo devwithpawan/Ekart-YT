@@ -241,7 +241,7 @@ export const forgetPassword = async (req, res) => {
 export const verifyOTP = async (req, res) => {
     try {
         const { otp } = req.body;
-        const email = req.params.email
+        const email = req.params.email;
         if (!otp) {
             return res.status(400).json({
                 success: false,

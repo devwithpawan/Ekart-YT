@@ -104,4 +104,3 @@ create .env file in frontend and add razorpay-key-id
 create pages for order-success
 create path in app.js
 npm i recharts
-
